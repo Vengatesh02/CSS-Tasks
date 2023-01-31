@@ -1,0 +1,8 @@
+body{
+    background-color: blanchedalmond;
+}
+.image{
+    position: absolute;
+    right: calc(100% - 95%);
+    top: calc(100% - 400px);
+}

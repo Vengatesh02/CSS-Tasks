@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(200, 235, 240);
+    height: 650px;
+    margin: 0;
+}
+.first-row{
+    height: 16%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;  
+}
+.box-1{
+    margin-right: 15px;
+    height: 100%;
+    width: 33.33%;
+    background-color: brown;   
+}
+.box-2{
+    height: 100%;
+    width: 75%;
+    background-color: rgb(11, 40, 155);  
+}
+
+.second-row{
+    width: 100%;
+    height: 31%;
+    margin-bottom: 15px; 
+}
+.box-3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(158, 151, 13);
+}
+.third-row{
+    height: 16%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px; 
+}
+.box-4{
+    width: 33.33%;
+    height: 100%;
+    margin-right: 15px;
+    background-color: rgb(64, 226, 14);
+}
+.box-5{
+    width: 33.33%;
+    height: 100%;
+    margin-right: 15px; 
+    background-color: rgb(186, 10, 199);
+}
+.box-6{
+    width: 33.33%;
+    height: 100%;
+    background-color: rgb(34, 75, 239);
+}
+.fourth-row{
+    height: 16%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px; 
+}
+.box-7{
+    width: 50%;
+    height: 100%;
+    margin-right: 15px;
+    background-color: rgb(239, 162, 7);
+}
+.box-8{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(220, 173, 18);
+}
+.fifth-row{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px; 
+}
+.box-9{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(2, 74, 25);
+    margin-right: 15px;
+}
+.box-10{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(76, 106, 217);
+    margin-right: 15px;
+
+}
+.box-11{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(47, 3, 3);
+    margin-right: 15px;
+}
+.box-12{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(13, 2, 74);
+}
+.sixth-row{
+    height: 3%;
+    width: 100%;
+    margin-bottom: 15px; 
+}
+.box-13{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 1, 1);
+}

@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+@font-face {
+    font-family: greeting-font;
+    src: url(https://fonts.gstatic.com/s/audiowide/v16/l7gdbjpo0cum0ckerWCdlg_O.woff2);
+}
+@font-face {
+    font-family: welcome-font;
+    src: url(8QIHdirahM3j_su5uI0.woff2);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Name-1;
+    src: url(5DCXAKLhwDDQ4N8blKTeA2yuxSY.ttf);
+}
+@font-face {
+    font-family: Name-2;
+    src: url(K2FyfZJVlfNNSEBXGb7TCI6oBjLz.ttf);
+}
+@font-face {
+    font-family: Name-3;
+    src: url(If2QXTv_ZzSxGIO30LemWEOmt1bHqs4pgicOrg.ttf);
+}
+@font-face {
+    font-family: Name-4;
+    src: url(fdN-9sqWtWZZlHRp-gBxkFYN-a8.ttf);
+}
+.greeting{
+    font-family: greeting-font, serif;
+}
+.welcome{
+    font-family: welcome-font;
+}
+.name-1{
+    font-family: Name-1;
+}
+.name-2{
+    font-family: Name-2;
+}
+.name-3{
+    font-family: Name-3;
+}
+.name-4{
+    font-family: Name-4;
+}
