@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+}
+
+.parent{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(image.jpg);
+    background-size: 100% 100%;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    padding-top: 10px;
+}
+.form-div{
+    background-color: rgb(15, 140, 142);
+    padding: 40px;
+    opacity: 0.7;
+    position: relative;
+}
+.start-div{
+    flex: 60%;
+}
+.end-div{
+    flex: 40%;
+    padding-left: 5%;
+}
+.name, .button-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.phone-code{
+    width: 30px;
+    margin-right: 10px;
+}
+.phone-number{
+    width: 158px;
+}
+
+.form-data > div{
+    margin-bottom: 30px;
+}
+.city-state{
+    display: flex;
+}
+.zip-country{
+    display: flex;
+}
+
+pre{
+    display: inline;
+}
+
+/* Input text box style */
+
+input, select{
+    color: white;
+    background-color: rgb(7, 93, 96);
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid white;
+}
+.long-text{
+    width: 82.5%;
+}
+select{
+    height: 40px;
+    width: 202px;
+    padding: 0;
+}
+
+.align-div{
+    width: 14.5%;
+}
+
+.button{
+    height: 35px;
+    margin-right: 5px;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+}
+
+.place-order{
+    background-color: rgba(21, 142, 255, 0.997);
+    border-color: rgba(21, 142, 255, 0.997);
+}
+
+.reset{
+    background-color: rgb(182, 151, 16);
+    border-color: rgb(182, 151, 16);
+}
+
+footer{
+    text-align: center;
+}
+
+.footer-color{
+    color: rgb(182, 41, 41);
+}
+
+::placeholder{
+    color: white;
+}

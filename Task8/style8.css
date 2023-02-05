@@ -1,0 +1,19 @@
+table{
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    height: 250px;
+    font-size: 25px;
+    background-color: beige;
+    
+}
+tr , td ,th{
+    border: 2px solid black
+}
+.heading{
+    text-align: center;
+    margin-bottom: 0;
+}
+td{
+    padding-left: 5px;
+}

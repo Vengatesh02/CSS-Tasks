@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.outer{
+    padding: 5px;
+    background-color: rgba(80, 122, 200, 0.978);
+    width: 97.8vw;
+    border-radius: 15px;
+}
+.parent{
+    height: 100vh;
+    border-radius: 40%;
+}
+.left-portion{
+    background-color: white;
+    width: 30%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.profile{
+    height: 20vh;
+    display: flex;
+}
+img{
+    width: 80%;
+    height: 60%;
+    border-radius: 50%;
+}
+.photo{
+    margin-top: 7%;
+    margin-left: 5%;
+    width: 25%;
+}
+.name-color{
+    color: rgba(80, 122, 200, 0.978);;
+}
+h2{
+    width: auto;
+}
+.row{
+    display: flex;
+    background-color: white
+}
+.icon{
+    margin-top: 17px;
+    padding-left: 1%;
+}
+.medium{
+    margin-top: 18px;
+    margin-right: 13%;
+    padding-left: 1%;
+}
+.big{
+    margin: 5% 10% 0 0;
+}
+.right-portion{
+    background-color: rgba(80, 122, 200, 0.978);
+    height: 100%;
+    width: 100vw;
+    padding: 0 8% 0 8%;
+}
+.head{
+    color: white;
+}
+.today-task{
+    padding: 3% 10% 0 10%;
+    margin-bottom: -4%;
+}
+.task-details{
+    padding: 0 10% 0 20%;
+}
+.top-row{
+    margin: 5% -1% 5% -1%;
+    border-radius: 20px;
+    position: relative;
+}
+.time-work{
+    margin-bottom: 2%;
+    border-radius: 20px;
+    position: relative;
+}
+p{
+    padding-left: 1%;
+}
+.big i{
+    font-size: 20px;
+    margin-right: 10%;
+}
+.pink .fa-solid{
+    color: rgb(249, 106, 129);
+}
+.blue .fa-solid{
+    color: rgb(9, 96, 120);
+}
+.yellow .fa-solid{
+    color: orange;
+}
+.light i{
+    color: #E0D8D8;
+}
+.align{
+    position: absolute;
+    right: 10%;
+}
+.icon-align{
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    font-size: 150%;
+}
+
+.icon-blue{
+    color: steelblue;
+}
+
+.div-box{
+    width: 95%;
+}
+
+.relative{
+    position: relative;
+}
+.icon-align1{
+    position: absolute;
+    right: 3%;
+    font-size: 150%;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.three-dot{
+    margin-top: 1px;
+}
+.calender{
+    margin-left: 25%;
+}
+.task-box{
+    margin-left: 15px;
+}
+.left-portion i, .left-portion p{
+    margin: 8px;
+}
+.dim{
+    color: #E0D8D8;
+
+}
+.line{
+    border: 1px solid rgba(80, 122, 200, 0.978);
+    margin: 0 15% 13% 15%;
+}
