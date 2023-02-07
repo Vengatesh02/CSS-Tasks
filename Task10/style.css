@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    height: 100%;
+    width: 99vw;
+    padding: 15px;
+    background-color: rgb(200, 235, 240);
+}
+.box-1{
+    height: 16vh;
+    background-color: brown;   
+}
+.box-2{
+    height: 16vh;
+    width: 100%;
+    background-color: rgb(11, 40, 155);  
+}
+.box-3{
+    height: 31vh;
+    width: 100%;
+    background-color: rgb(158, 151, 13);
+}
+.box-4{
+    height: 16vh;
+    width: 100%;
+    background-color: rgb(64, 226, 14);
+}
+.box-5{
+    height: 16vh;
+    width: 100%;
+    background-color: rgb(186, 10, 199);
+}
+.box-6{
+    height: 16vh;
+    width: 100%;
+    background-color: rgb(34, 75, 239);
+}
+.box-7{
+    height: 16vh;
+    width: 100%;
+    background-color: rgb(152, 103, 5);
+}
+.box-8{
+    height: 16vh;
+    width: 100%;
+    background-color: rgb(220, 173, 18);
+}
+.box-9{
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(2, 74, 25);
+}
+.box-10{
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(76, 106, 217);
+}
+.box-11{
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(155, 48, 48);
+}
+.box-12{
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(13, 2, 74);
+}
+.box-13{
+    height: 3vh;
+    width: 100%;
+    background-color: rgb(35, 1, 1);
+}
+.gap{
+    margin-bottom: 15px;
+}
+

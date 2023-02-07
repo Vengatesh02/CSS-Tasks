@@ -1,0 +1,36 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .first-row{
+        display: flex;
+    }
+    .box-1{
+        width: 40%;
+        margin-right: 15px;
+    }
+    .fifth-row{
+        display: block;
+    }
+    .fifth-one{
+        display: flex;
+    }
+    .box-4{
+        width: 100;
+    }
+    .box-9{
+        width: 50%;
+        margin-right: 15px;
+    }
+    .box-10{
+        width: 50%;
+        margin-right: 0;
+    }
+    .fifth-two{
+        display: flex;
+    }
+    .box-11{
+        margin-right: 15px;
+        width: 50%;
+    }
+    .box-12{
+        width: 50%;
+    }
+}
