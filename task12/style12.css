@@ -1,0 +1,107 @@
+.main {
+    height: 800px;
+    width: 800px;
+    margin-left: 20vw;
+    position: relative;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parent {
+    width: 600px;
+    height: 600px;
+    right: calc(800px - 700px);
+    top: calc(800px - 700px);
+    z-index: 1;
+}
+
+.parent,
+.red,
+.green,
+.orange,
+.blue {
+    position: absolute;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.red {
+    background-color: brown;
+}
+
+.green {
+    background-color: green;
+    right: calc(100% - 505px);
+}
+
+.orange,
+.blue {
+    bottom: calc(600px - 505px);
+}
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: rgb(48, 14, 148);
+    right: calc(100% - 505px);
+}
+
+span {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
+.top-left,
+.top-right,
+.top-side,
+.bottom-side {
+    background-color: rgb(109, 90, 90);
+}
+
+.top-left {
+    margin-left: calc(100% - 650px);
+}
+
+.top-right {
+    margin-left: calc(100% - 700px);
+}
+
+p {
+    padding-top: 70px;
+}
+
+.side {
+    display: block;
+}
+
+.top-side,
+.bottom-side {
+    margin-left: 10px;
+    -webkit-transform: rotate(-90deg);
+}
+
+.top-side {
+    margin-top: calc(100% - 790px);
+}
+
+.bottom-side {
+    margin-top: calc(100% - 585px);
+}
+
+.no,
+.content {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    font-weight: 800;
+}
