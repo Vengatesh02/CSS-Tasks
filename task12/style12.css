@@ -1,8 +1,8 @@
 .main {
     height: 800px;
     width: 800px;
-    margin-left: 20vw;
     position: relative;
+    left: calc(50% - 300px);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -26,16 +26,21 @@
 div {
     width: 250px;
     height: 250px;
-    border-radius: 10px;
 }
 
 .red {
     background-color: brown;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .green {
     background-color: green;
     right: calc(100% - 505px);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .orange,
@@ -45,11 +50,17 @@ div {
 
 .orange {
     background-color: orange;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .blue {
     background-color: rgb(48, 14, 148);
     right: calc(100% - 505px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 span {
